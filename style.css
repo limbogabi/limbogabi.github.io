@@ -1,0 +1,38 @@
+#white {
+  color: rgb(131, 141, 226);
+  font-size: 2rem;
+  text-align: center;
+  width: 10%;
+margin-left: 40%;
+margin-right: 30%;
+color: black;
+background-color: white;
+
+
+}
+#black {
+  color: rgb(131, 141, 226);
+  font-size: 2rem;
+  text-align: center;
+  width: 10%;
+  margin-left: -28%;
+margin-right: 50%;
+position: absolute;
+color: white;
+background-color: black;
+}
+
+
+h1 {
+  color: rgb(179, 131, 226);
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.4;
+}
+h2 {
+  color: rgb(131, 226, 160);
+  font-size: 2rem;
+  text-align: center;
+}
+
+
