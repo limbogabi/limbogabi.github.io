@@ -3,7 +3,7 @@ let counter = 0;
 let alreadySquare = [];
 let startTime = 0;
 let endTime;
-let numOfSquares = 64;
+let numOfSquares = 5;
 window.addEventListener('load', event => {
   startTime = performance.now();
   alreadySquare.push(randomSquare());
