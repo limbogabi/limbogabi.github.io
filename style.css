@@ -25,14 +25,14 @@ background-color: black;
 
 h1 {
   color: rgb(179, 131, 226);
-  font-size: 100rem;
+  font-size: 10rem;
   text-align: center;
   opacity: 0.4;
 }
 h2 {
   color: rgb(131, 226, 160);
-  font-size: 100rem;
-  text-align: center;
+  font-size: 200rem;
+  text-align: left;
 }
 
 @media screen and (max-width: 600px){
