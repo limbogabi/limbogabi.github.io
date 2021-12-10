@@ -28,7 +28,7 @@ function whitePressed(){
     endTime = performance.now();
     console.log(`Call to doSomething took ${endTime - startTime} milliseconds`);
     let res = document.getElementById("result");
-    res.innerHTML =`Great: You did ${counter} out of ${numOfSquares} in ${Math.round(((endTime - startTime)/1000))/60} min`
+    res.innerHTML =`Great: You did ${counter} out of ${numOfSquares} in ${Math.round(((endTime - startTime)/1000/60))} min`
     let buttonBlack = document.getElementById("black");
     buttonBlack.onclick = "";
     let buttonWhite = document.getElementById("white");
